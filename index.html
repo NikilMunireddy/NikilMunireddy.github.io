@@ -3,38 +3,126 @@
 <title>NikilMunireddy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <body>
+    <style>
+        .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+      h4{
+          text-decoration: underline;
+      }
+      .fo{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+      }
+      .btn-group button {
+    background-color: rgb(221, 221, 221); 
+    border: 1px solid black; 
+    color: black; 
+    width: 100%;
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; 
+}
+
+.btn-group button:hover {
+    background-color: white;
+}
+.header{
+    padding: 1em;
+    height: 3cm;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+.footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+      </style>
 
 <!-- Sidebar -->
-<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
-  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-  <a href="https://github.com/NikilMunireddy" class="w3-bar-item w3-button">My GitHub</a>
-  <a href="https://www.linkedin.com/in/nikil-munireddy-bb7105151/" class="w3-bar-item w3-button">Linkedin</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-</div>
+<div class="header">
+<center><h1>Nikil Munireddy Profile</h1></center>
+
+   </div>
 
 <!-- Page Content -->
-<div class="w3-teal">
-  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
-  <div class="w3-container">
-    <h1>My Page</h1>
-  </div>
-</div>
+
 
 <div class="w3-container">
-  
-  
+    <center>
+        <div class="card">
+            <img src="nikil.jpg" alt="Nikil Munireddy" style="width:100%">
+            <h1>Nikil M</h1>
+            <p class="title">Student at KSIT</p>
+            <p>Visvesvaraya Technological University</p>
+            <a href="https://www.linkedin.com/in/nikil-munireddy-bb7105151/"><i class="fa fa-linkedin"></i></a> &nbsp;&nbsp;
+            <a href="https://github.com/NikilMunireddy"><i class="fa fa-github"></i></a> 
+          </div>
+      </center>
+<center>
+    <diV class="card">
+        <h1>My projects</h1>
+        <div class="btn-group">
+            &nbsp;<button onclick="location.href = 'https://github.com/NikilMunireddy/face_recognition'">Face detection</button>
+        </div>
+        <div class="btn-group">
+            <button onclick="location.href = 'https://github.com/NikilMunireddy/assistant'">Assistant</button>
+        </div>
+        <div class="btn-group">
+            <button onclick="location.href = 'https://github.com/NikilMunireddy/weather'">Weather App</button>
+        </div>
+        <div class="btn-group">
+            <button onclick="location.href = 'https://github.com/NikilMunireddy/TextSum'">Text summarizer</button>
+        </div>
+        <div class="btn-group">
+            <button onclick="location.href = 'https://github.com/NikilMunireddy/BotNik66'">Chatbot</button>
+        </div>
+        <div class="btn-group">
+            <button onclick="location.href = 'https://github.com/NikilMunireddy/Emotion-movie-recommendation'">Movie name recommendation based on emotion</button>
+        </div>
+        <div class="btn-group">
+            <button onclick="location.href = 'https://github.com/NikilMunireddy/News'">News</button>
+        </div>
+        <div class="btn-group">
+            <button onclick="location.href = 'https://github.com/NikilMunireddy/Eye_hospital_database_management_system'"> Eye DB</button>
+        </div>
+        <div class="btn-group">
+            <button onclick="location.href = 'https://github.com/NikilMunireddy/Arduino'"> IoT Arduino bot</button>
+        </div>
+      </diV>
+      
+</center>
   
 
 </div>
 
 <script>
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-}
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-}
+
 </script>
      
 </body>
